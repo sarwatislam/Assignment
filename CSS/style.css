@@ -1,3 +1,29 @@
-h1{
-    background-color: beige;
-}
+
+.logo
+{height:60px;
+width:139px;}
+nav{
+    display: flex;
+    justify-content:space-between;
+    padding:16px 120px;
+    margin:5px auto;}
+ nav .menu{
+    display: flex;
+    list-style-type: none;
+    gap:30px;
+    margin:5px auto;
+justify-content: space-between;}
+   a{text-decoration: none;
+    font-weight: bold;
+color: #000;}
+   .btn{
+    color: white;
+    font-weight: bold;
+    padding:auto ;
+    background-color: rgb(66, 143, 99);
+    height: 44px;
+    width:164px;
+    border: none;
+ border-radius: 4px;
+ padding:12px,16px;
+   }
