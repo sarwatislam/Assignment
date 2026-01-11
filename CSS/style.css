@@ -16,7 +16,8 @@ box-sizing: border-box;
     margin:5px auto;
     text-align: center;
 justify-content: space-between;}
-   a{text-decoration: none;
+  
+a{text-decoration: none;
     font-weight: bold;
 color: #000;}
    .btn{color: white;
@@ -163,17 +164,25 @@ text-align:center ;}
 font-weight:400;
 text-align: center;}
 
-footer{color: #23874d;
+footer{color: #ffffff;
     background-color: #001931;
     margin-top: 110px;
-padding-top: 120px;
+padding-top:80px;
 padding-left: 120px;
 padding-right: 120px;
-padding-bottom: 30px;
-display: flex;
-justify-content: space-between;}
+padding-bottom: 30px;}
 
+#footercontent{ margin: 0 auto;
+    display: flex; 
+    justify-content: space-between;}
 
-#social{}
-
+hr{border:0.1px solid #0b4824;}
 #icon{ display:flex;justify-content: space-between;}
+#icon a{
+    background-color: #ffffff; border-radius: 100%; gap:2px;
+}
+
+/* adding hover effect  */
+ .navbar:hover{transform:scale(1.07);}
+ button{cursor:pointer;}
+ button:hover{box-shadow:3px 4px 15px #79838d;}
